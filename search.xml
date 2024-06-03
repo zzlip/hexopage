@@ -8,7 +8,7 @@
       <link href="/2024/06/03/%E6%B5%8B%E8%AF%95/"/>
       <url>/2024/06/03/%E6%B5%8B%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<p>测试</p>]]></content>
+        <content type="html"><![CDATA[<p>测试<br>前提环境：拥有github&#x2F;gitee账户，电脑上装有git</p><p>建议在Typora中设置图片存储路径为相对路径（图片也上传到github上），这样远程打开笔记时也能显示图片</p><p>方法一<br>1.登录github，创建一个新的仓库（这里创建的仓库名为：Typora）</p><p>2.复制仓库的https地址备用</p><p>3.本地操作：</p><p>（1）进入我们需要上传到github上的目录中，右键打开Git Bash Here</p><p>（2）输入：git clone <a href="https://github.com/xxxx/xxxxxx.git%EF%BC%88https://github.com/xxxx/xxxxxx.git">https://github.com/xxxx/xxxxxx.git（https://github.com/xxxx/xxxxxx.git</a> 替换成之前复制的地址）</p><p>（3）这个步骤以后本地项目文件夹下面就会多出个文件夹，该文件夹名即为github上面的仓库名</p><p>（4）如图我多出了个Typora文件夹，我们把本地文件夹下的所有文件（除了新多出的那个文件夹不用），其余都复制到那个新多出的文件夹下</p><p>（5）cd 进入typora目录</p><p>（6）接下来依次输入以下代码即可完成其他剩余操作：</p><pre><code>1、git add * （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）2、git commit -m &quot;提交信息&quot; （注：“提交信息”里面换成你需要，如“first commit”）3、git push -u origin master（注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）注：我这里的主分支名字为main，所以push时用的是main</code></pre><p>提示:（6）的第3小步骤若报错failed to push some refs to <a href="https://github.com/xxxxxx/xxxx.git%E8%AF%B4%E6%98%8E%E5%9C%A8%E5%88%9B%E5%BB%BAgithub%E4%BB%93%E5%BA%93%E7%9A%84%E6%97%B6%E5%80%99%E9%80%89%E6%8B%A9%E4%BA%86%E5%88%9B%E5%BB%BAREADME.md%E6%96%87%E4%BB%B6">https://github.com/xxxxxx/xxxx.git说明在创建github仓库的时候选择了创建README.md文件</a></p><p>这时先执行$ git pull –rebase origin master，再push就可以了<br>————————————————</p><pre><code>                        版权声明：本文为博主原创文章，遵循 CC 4.0 BY 版权协议，转载请附上原文出处链接和本声明。                    </code></pre><p>原文链接：<a href="https://blog.csdn.net/qq_39588003/article/details/115670602">https://blog.csdn.net/qq_39588003/article/details/115670602</a></p>]]></content>
       
       
       

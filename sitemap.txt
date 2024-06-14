@@ -13,5 +13,5 @@ https://www.notes.kim/essay/index.html
 https://www.notes.kim/links/index.html
 https://www.notes.kim/about/index.html
 https://www.notes.kim/
-https://www.notes.kim/tags/%E6%95%99%E7%A8%8B/
 https://www.notes.kim/tags/hexo/
+https://www.notes.kim/tags/%E6%95%99%E7%A8%8B/

@@ -2,36 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.notes.kim/2024/06/06/123/</loc>
+    <loc>https://www.notes.kim/talks/index.html</loc>
     
-    <lastmod>2024-06-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.notes.kim/2024/06/02/%E9%9A%8F%E4%BE%BF/</loc>
-    
-    <lastmod>2024-06-05</lastmod>
+    <lastmod>2024-06-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.notes.kim/2024/06/01/hello-world/</loc>
+    <loc>https://www.notes.kim/posts/c8784a5e.html</loc>
     
-    <lastmod>2024-06-03</lastmod>
+    <lastmod>2024-06-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.notes.kim/2024/06/03/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://www.notes.kim/posts/f25345cc.html</loc>
     
-    <lastmod>2024-06-03</lastmod>
+    <lastmod>2024-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.notes.kim/posts/37773.html</loc>
+    
+    <lastmod>2024-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.notes.kim/posts/11157.html</loc>
+    
+    <lastmod>2024-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.notes.kim/posts/33996.html</loc>
+    
+    <lastmod>2024-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.notes.kim/posts/16107.html</loc>
+    
+    <lastmod>2024-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.notes.kim/posts/59141.html</loc>
+    
+    <lastmod>2024-06-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,11 +139,25 @@
 
   <url>
     <loc>https://www.notes.kim/</loc>
-    <lastmod>2024-06-06</lastmod>
+    <lastmod>2024-07-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://www.notes.kim/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.notes.kim/tags/hexo/</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   

@@ -4,11 +4,62 @@
   
     
     <entry>
-      <title>123</title>
-      <link href="/2024/06/06/123/"/>
-      <url>/2024/06/06/123/</url>
+      <title>dify</title>
+      <link href="/posts/c8784a5e.html"/>
+      <url>/posts/c8784a5e.html</url>
       
-        <content type="html"><![CDATA[<p><img src="/image-1.png" alt="alt text"></p>]]></content>
+        <content type="html"><![CDATA[<p>首先检查一下是否安装了Docker,和Docker-compose ，可以输入：docker –version 和 docker-compose –version 版本号查询命令，如果显示版本号则已安装相应版本的dicker 和 docker-compose 否则需要安装相应的软件。Dify 需要Docker 19.03 或更高版本；Docker Compose 1.25.1 或更高版本</p><p>Docker 安装命令：</p><p>snap install docker</p><p>Docker-compose 安装命令：</p><p>apt  install docker-compose</p><p>克隆 Dify</p><h1 id="git-clone-https-github-com-langgenius-dify-git"><a href="#git-clone-https-github-com-langgenius-dify-git" class="headerlink" title="git clone https://github.com/langgenius/dify.git"></a>git clone <a href="https://github.com/langgenius/dify.git">https://github.com/langgenius/dify.git</a></h1><p>在启用业务服务之前，我们需要先部署 PostgresSQL &#x2F; Redis &#x2F; Weaviate（如果本地不可用）。我们可以使用以下命令启动它们：</p><p>复制<br>cd docker<br>docker compose -f docker-compose.middleware.yaml up -d</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章标题链接形式修改</title>
+      <link href="/posts/f25345cc.html"/>
+      <url>/posts/f25345cc.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>jiaocheng</title>
+      <link href="/posts/33996.html"/>
+      <url>/posts/33996.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Docker 镜像拉取失败的解决方法</title>
+      <link href="/posts/59141.html"/>
+      <url>/posts/59141.html</url>
+      
+        <content type="html"><![CDATA[<p>参考链接：<br><a href="https://www.cnblogs.com/ikuai/p/18233775">https://www.cnblogs.com/ikuai/p/18233775</a></p><p>操作步骤：</p><h1 id="创建目录"><a href="#创建目录" class="headerlink" title="创建目录"></a>创建目录</h1><p>sudo mkdir -p &#x2F;etc&#x2F;docker</p><h1 id="写入镜像配置"><a href="#写入镜像配置" class="headerlink" title="写入镜像配置"></a>写入镜像配置</h1><p>sudo tee &#x2F;etc&#x2F;docker&#x2F;daemon.json &lt;&lt;-‘EOF’<br>{<br>“registry-mirrors”: [<br>“<a href="https://docker.m.daocloud.io/">https://docker.m.daocloud.io</a>“,<br>“<a href="https://dockerproxy.com/">https://dockerproxy.com</a>“,<br>“<a href="https://docker.mirrors.ustc.edu.cn/">https://docker.mirrors.ustc.edu.cn</a>“,<br>“<a href="https://docker.nju.edu.cn/">https://docker.nju.edu.cn</a>“<br>]<br>}<br>EOF</p><h1 id="重启docker服务"><a href="#重启docker服务" class="headerlink" title="重启docker服务"></a>重启docker服务</h1><p>sudo systemctl daemon-reload<br>sudo systemctl restart docker</p><p>输入docker info命令，可以看到“Registry Mirrors”地址列表，说明设置成功了，如下图：</p><p><a href="https://img.rss.ink/imgs/2023/12/14/b077e81132367679.png">https://img.rss.ink/imgs/2023/12/14/b077e81132367679.png</a></p>]]></content>
       
       
       
@@ -18,8 +69,8 @@
     
     <entry>
       <title>测试</title>
-      <link href="/2024/06/03/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2024/06/03/%E6%B5%8B%E8%AF%95/</url>
+      <link href="/posts/37773.html"/>
+      <url>/posts/37773.html</url>
       
         <content type="html"><![CDATA[<p>测试<br>前提环境：拥有github&#x2F;gitee账户，电脑上装有git</p><p>建议在Typora中设置图片存储路径为相对路径（图片也上传到github上），这样远程打开笔记时也能显示图片</p><p>方法一<br>1.登录github，创建一个新的仓库（这里创建的仓库名为：Typora）</p><p>2.复制仓库的https地址备用</p><p>3.本地操作：</p><p>（1）进入我们需要上传到github上的目录中，右键打开Git Bash Here</p><p>（2）输入：git clone <a href="https://github.com/xxxx/xxxxxx.git%EF%BC%88https://github.com/xxxx/xxxxxx.git">https://github.com/xxxx/xxxxxx.git（https://github.com/xxxx/xxxxxx.git</a> 替换成之前复制的地址）</p><p>（3）这个步骤以后本地项目文件夹下面就会多出个文件夹，该文件夹名即为github上面的仓库名</p><p>（4）如图我多出了个Typora文件夹，我们把本地文件夹下的所有文件（除了新多出的那个文件夹不用），其余都复制到那个新多出的文件夹下</p><p>（5）cd 进入typora目录</p><p>（6）接下来依次输入以下代码即可完成其他剩余操作：</p><pre><code>1、git add * （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）2、git commit -m &quot;提交信息&quot; （注：“提交信息”里面换成你需要，如“first commit”）3、git push -u origin master（注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）注：我这里的主分支名字为main，所以push时用的是main</code></pre><p>提示:（6）的第3小步骤若报错failed to push some refs to <a href="https://github.com/xxxxxx/xxxx.git%E8%AF%B4%E6%98%8E%E5%9C%A8%E5%88%9B%E5%BB%BAgithub%E4%BB%93%E5%BA%93%E7%9A%84%E6%97%B6%E5%80%99%E9%80%89%E6%8B%A9%E4%BA%86%E5%88%9B%E5%BB%BAREADME.md%E6%96%87%E4%BB%B6">https://github.com/xxxxxx/xxxx.git说明在创建github仓库的时候选择了创建README.md文件</a></p><p>这时先执行$ git pull –rebase origin master，再push就可以了<br>————————————————</p><pre><code>                        版权声明：本文为博主原创文章，遵循 CC 4.0 BY 版权协议，转载请附上原文出处链接和本声明。                    </code></pre><p>原文链接：<a href="https://blog.csdn.net/qq_39588003/article/details/115670602">https://blog.csdn.net/qq_39588003/article/details/115670602</a></p>]]></content>
       
@@ -31,8 +82,8 @@
     
     <entry>
       <title>docker容器的停止与删除</title>
-      <link href="/2024/06/02/%E9%9A%8F%E4%BE%BF/"/>
-      <url>/2024/06/02/%E9%9A%8F%E4%BE%BF/</url>
+      <link href="/posts/11157.html"/>
+      <url>/posts/11157.html</url>
       
         <content type="html"><![CDATA[<p>1.停止docker容器<br>要停止特定容器，请在 docker stop 命令中使用其 ID 或名称：</p><p>docker stop container_name_or_ID</p><p>2.停止所有正在运行的docker容器</p><p>docker ps -q | xargs docker stop</p><p>3.删除docker容器<br>删除容器指定容器 ID 或名称：</p><p>docker rm container_id_or_name</p><p>4.强制删除某个docker 容器<br>docker rm -f container_id_or_name</p><p>5.删除所有已停止的容器</p><p>docker ps -a -q -f status&#x3D;exited | xargs docker rm</p><p>6.删除所有 Docker 容器</p><p>docker ps -q | xargs docker rm</p><p>引用：1.<a href="https://cn.linux-console.net/?p=20033">https://cn.linux-console.net/?p=20033</a><br>2.<a href="https://cn.linux-console.net/?p=20047">https://cn.linux-console.net/?p=20047</a></p>]]></content>
       
@@ -44,10 +95,10 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2024/06/01/hello-world/"/>
-      <url>/2024/06/01/hello-world/</url>
+      <link href="/posts/16107.html"/>
+      <url>/posts/16107.html</url>
       
-        <content type="html"><![CDATA[<p>本站部署方案<br>Github、托管网站页面<br>Github action、自动部署<br>Hexo、网站系统</p><p>网站使用的是Hexo[<a href="https://hexo.io/zh-cn/]">https://hexo.io/zh-cn/]</a> 博客系统，主题使用的是：solitude 主题 [<a href="https://solitude.js.org/]%E3%80%82">https://solitude.js.org/]。</a></p><p>目前的操作是在本地编辑文章，然后一键同步到Github托管仓库，托管仓库自动启用Github action部署到页面网站的仓库，在浏览器即可浏览发布的文章。</p><p>现在这个流程还是有些繁琐，Qexo 也部署了，但是不知道是什么原因，可以读取Hexo目录部署的网站，文章都可以加载，就是使用Qexo新建文章的时候总是提示：请输入正确的文章名。测试几次未解决，暂时搁置。</p><p>流程存档</p><p>部署流程：<br>Github网站注册登录（流程此处略过），新建两个存储库，一个公开存储库。存放Hexo网站生成的页面，也就是最终的网站。<br>一个私有存储库，当然也可以公开。私有还是安全点，毕竟所有的源码都在这个存储库。主要存放Hexo系统源码，相当于网站后台。</p><p>源码存储库，部署Github action，推送页面到页面公开存储库。</p><p>电脑端操作：<br>电脑安装<br>1.Git<br>2.node.js<br>3.Visual Studio Code<br>上面Git和node.js是环境，Visual Studio Code是应用，主要用于修改本地的Hexo源码</p><p>本地使用Powshell，或Git命令安装Hexo博客系统：<br>npm install -g hexo-cli<br>运行此命令后会在当前文件夹下安装Hexo。<br>为了管理方便可以先建立文件夹，比如D:\Hexo，在这个文件夹下右键，然后“在终端中打开”打开Powshell。<br>安装完成后：<br>hexo clean(清理缓存等)<br>生成页面：<br>hexo g（生成页面）<br>本地浏览<br>hexo s（本地服务）<br>在浏览器输入：<br><a href="http://localhost:4000/">http://localhost:4000/</a> ，本地浏览网站</p><p>网站名称，描述，网站关键字等在config.yml设置，其他在模板的设置文件里修改。<br>修改网站主题：<br>theme: solitude：修改主题为 solitude(主题的安装及修改篇幅有限另外存档)</p><p>最后一定要设置网站页面公开存储库的仓库地址<br>deploy:<br>  type: git<br>  repository: <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;">&#103;&#105;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;</a>:XXXX&#x2F;XXXpage.git<br>  branch: main</p><p>修改完成后，输入：<br>git push -f origin main<br>将源码推送到仓库<br>此处不可以使用“hexo d”(这个命令推送的是生成的页面，每次命令会覆盖上次命令)<br>如果推送不成功，或者提示没有任何改变而中止推送的话，使用：<br>git add .<br>git commit -m “更新”<br>git push origin main<br>强制推送源码</p><p>推送成功后，Github action会启动，然后将源码文件夹下生成的新页面，自动推送到页面公开的存储库，页面存储库绑定自己的域名就可以访问了。</p>]]></content>
+        <content type="html"><![CDATA[<p>本站部署方案<br>Github、托管网站页面<br>Github action、自动部署<br>Hexo、网站系统</p><p>网站使用的是Hexo[<a href="https://hexo.io/zh-cn/]">https://hexo.io/zh-cn/]</a> 博客系统，主题使用的是：solitude 主题 [<a href="https://solitude.js.org/]%E3%80%82">https://solitude.js.org/]。</a></p><p>目前的操作是在本地编辑文章，然后一键同步到Github托管仓库，托管仓库自动启用Github action部署到页面网站的仓库，在浏览器即可浏览发布的文章。</p><p>现在这个流程还是有些繁琐，Qexo 也部署了，但是不知道是什么原因，可以读取Hexo目录部署的网站，文章都可以加载，就是使用Qexo新建文章的时候总是提示：请输入正确的文章名。测试几次未解决，暂时搁置。</p><p>流程存档</p><p>部署流程：<br>Github网站注册登录（流程此处略过），新建两个存储库，一个公开存储库。存放Hexo网站生成的页面，也就是最终的网站。<br>一个私有存储库，当然也可以公开。私有还是安全点，毕竟所有的源码都在这个存储库。主要存放Hexo系统源码，相当于网站后台。</p><p>源码存储库，部署Github action，推送页面到页面公开存储库。</p><p>电脑端操作：<br>电脑安装<br>1.Git<br>2.node.js<br>3.Visual Studio Code<br>上面Git和node.js是环境，Visual Studio Code是应用，主要用于修改本地的Hexo源码</p><p>本地使用Powshell，或Git命令安装Hexo博客系统：<br>npm install -g hexo-cli<br>运行此命令后会在当前文件夹下安装Hexo。<br>为了管理方便可以先建立文件夹，比如D:\Hexo，在这个文件夹下右键，然后“在终端中打开”打开Powshell。<br>安装完成后：<br>hexo clean(清理缓存等)<br>生成页面：<br>hexo g（生成页面）<br>本地浏览<br>hexo s（本地服务）<br>在浏览器输入：<br><a href="http://localhost:4000/">http://localhost:4000/</a> ，本地浏览网站</p><p>网站名称，描述，网站关键字等在config.yml设置，其他在模板的设置文件里修改。<br>修改网站主题：<br>theme: solitude：修改主题为 solitude(主题的安装及修改篇幅有限另外存档)</p><p>最后一定要设置网站页面公开存储库的仓库地址<br>deploy:<br>  type: git<br>  repository: <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#99;&#111;&#x6d;">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#99;&#111;&#x6d;</a>:XXXX&#x2F;XXXpage.git<br>  branch: main</p><p>修改完成后，输入：<br>git push -f origin main<br>将源码推送到仓库<br>此处不可以使用“hexo d”(这个命令推送的是生成的页面，每次命令会覆盖上次命令)<br>如果推送不成功，或者提示没有任何改变而中止推送的话，使用：<br>git add .<br>git commit -m “更新”<br>git push origin main<br>强制推送源码</p><p>推送成功后，Github action会启动，然后将源码文件夹下生成的新页面，自动推送到页面公开的存储库，页面存储库绑定自己的域名就可以访问了。</p>]]></content>
       
       
       

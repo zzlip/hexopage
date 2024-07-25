@@ -1,7 +1,11 @@
-https://www.notes.kim/2024/06/06/123/
-https://www.notes.kim/2024/06/02/%E9%9A%8F%E4%BE%BF/
-https://www.notes.kim/2024/06/01/hello-world/
-https://www.notes.kim/2024/06/03/%E6%B5%8B%E8%AF%95/
+https://www.notes.kim/talks/index.html
+https://www.notes.kim/posts/c8784a5e.html
+https://www.notes.kim/posts/f25345cc.html
+https://www.notes.kim/posts/37773.html
+https://www.notes.kim/posts/11157.html
+https://www.notes.kim/posts/33996.html
+https://www.notes.kim/posts/16107.html
+https://www.notes.kim/posts/59141.html
 https://www.notes.kim/message/index.html
 https://www.notes.kim/tlink/index.html
 https://www.notes.kim/music/index.html
@@ -10,3 +14,5 @@ https://www.notes.kim/essay/index.html
 https://www.notes.kim/links/index.html
 https://www.notes.kim/about/index.html
 https://www.notes.kim/
+https://www.notes.kim/tags/%E6%95%99%E7%A8%8B/
+https://www.notes.kim/tags/hexo/

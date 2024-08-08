@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.notes.kim/posts/37773.html</loc>
+    <loc>https://www.notes.kim/posts/11157.html</loc>
     
     <lastmod>2024-06-14</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.notes.kim/posts/11157.html</loc>
+    <loc>https://www.notes.kim/posts/37773.html</loc>
     
     <lastmod>2024-06-14</lastmod>
     
@@ -139,7 +139,7 @@
 
   <url>
     <loc>https://www.notes.kim/</loc>
-    <lastmod>2024-08-07</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -147,14 +147,14 @@
   
   <url>
     <loc>https://www.notes.kim/tags/hexo/</loc>
-    <lastmod>2024-08-07</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.notes.kim/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-08-07</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
